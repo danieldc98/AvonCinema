@@ -101,7 +101,7 @@ content {
 .page-title {
     text-align: center;
     font-size: 3em;
-    color: #636363;
+    color: #b4957d;
 }
 .page-subtitle {
     text-align: center;
@@ -120,6 +120,18 @@ content {
     flex-direction: row;
     justify-content: center;
     flex-grow: 3;
+}
+    
+.flex-payments {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+    
+.payment-type {
+    padding-left: 3px;
+    padding-right: 3px;
 }
     
 .flex-store-item {
@@ -256,7 +268,7 @@ content {
     <content>
         <div class="flex-content">
             <div class="page-title">Store<br></div>
-            <div class="page-subtitle">Buy an Avon gift card<br><br></div>
+            <div class="page-subtitle">Also available at the box office.<br><br></div>
             
             <div class="flex-store">
                 <div class="flex-store-item left">
@@ -314,6 +326,15 @@ No cash refunds.<br><br>
                 </div>
             </div>
         </div>
+        <div class="flex-payments">
+             <br><br>
+            <div class="payment-type"><img src="paypal.png" height=30px width=auto></div>
+            <div class="payment-type"><img src="mastercard.png" height=30px width=auto></div>
+            <div class="payment-type"><img src="amex.png" height=30px width=auto></div>
+            <div class="payment-type"><img src="visa.png" height=30px width=auto></div>
+            <div class="payment-type"><img src="echeck.gif" height=30px width=auto></div>
+        </div>
+                                                                                                                                                                                                                                                   
     </content>
     
 </body>
